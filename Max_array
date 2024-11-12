@@ -1,0 +1,21 @@
+public class max_array {   //This is our class
+ 
+public static void main(String args[]) {   //It is called as a method Signature
+
+int arr[]={2,5,1,3,0};  //given an array of length 5
+
+int max=arr[0]; // here we have initialized the first element of the array as the maximum element 
+
+for (int i=0;i<arr.length;i++)  //this for loop is traversing the elements in the array 
+
+{
+
+if(arr[i]>max)
+ max=arr[i];
+}
+
+
+System.out.println("Max element is="+max);
+}
+
+}
